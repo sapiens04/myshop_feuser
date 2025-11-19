@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Chi tiết sản phẩm</title>
+<link rel="stylesheet" href="src/css/user.css">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="index.html"
+    <div class="logo">🛍 Shop Online</div>
+</a>
+    <nav>
+    <a href="index.html" class="active">Trang chủ</a>
+    <a href="src/products.html">Sản phẩm</a>
+    <a href="src/cart.html">
+        Giỏ hàng
+        <span class="cart-badge cart-count"></span>
+    </a>
+</nav>
+
+</header>
+
+<div class="detail-wrapper">
+    <img src="img/sample1.jpg" class="detail-image">
+
+    <div class="detail-info">
+        <h2 id="name"></h2>
+        <p id="price" class="price"></p>
+        <p>Mô tả sản phẩm: Demo website HTML + Spring Boot.</p>
+
+        <button class="btn-primary" onclick="addToCart()">🛒 Thêm vào giỏ hàng</button>
+    </div>
+</div>
+
+<script src="src/js/user_api.js"></script>
+<script src="src/js/cart_badge.js"></script>
+<script src="src/js/home.js"></script>
+
+</body>
+</html>

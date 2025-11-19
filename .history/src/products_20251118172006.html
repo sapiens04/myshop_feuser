@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sản phẩm | Shop Online</title>
+    <link rel="stylesheet" href="src/css/user.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">🛍 Shop Online</div>
+    <nav>
+    <a href="index.html" class="active">Trang chủ</a>
+    <a href="src/products.html">Sản phẩm</a>
+    <a href="src/cart.html">
+        Giỏ hàng
+        <span class="cart-badge cart-count"></span>
+    </a>
+</nav>
+
+</header>
+
+<h2 class="section-title">Danh sách sản phẩm</h2>
+
+<input id="searchInput" class="search-input" placeholder="🔍 Tìm sản phẩm..." oninput="renderList()">
+
+<div id="productList" class="product-grid"></div>
+
+<script src="src/js/user_api.js"></script>
+<script src="src/js/cart_badge.js"></script>
+<script src="src/js/home.js"></script>
+
+</body>
+</html>

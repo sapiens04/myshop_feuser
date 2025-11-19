@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sản phẩm | Shop Online</title>
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="logo">🛍 Shop Online</div>
+    <nav>
+        <a href="home.html">Trang chủ</a>
+        <a href="products.html" class="active">Sản phẩm</a>
+        <a href="cart.html">Giỏ hàng</a>
+    </nav>
+</header>
+
+<h2 class="section-title">Danh sách sản phẩm</h2>
+
+<input id="searchInput" class="search-input" placeholder="🔍 Tìm sản phẩm..." oninput="renderList()">
+
+<div id="productList" class="product-grid"></div>
+
+<script src="js/user_api.js"></script>
+<script src="js/products.js"></script>
+</body>
+</html>

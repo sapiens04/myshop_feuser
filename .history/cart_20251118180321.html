@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="./css/user.css">
+</head>
+
+<body>
+<header>
+    <a class="logo" href="index.html">Shop Online</a>
+
+    <nav>
+        <a href="index.html">Trang chủ</a>
+        <a href="products.html">Sản phẩm</a>
+
+        <a href="cart.html" class="cart-link">
+            Giỏ hàng <span id="cart-count" class="badge">0</span>
+        </a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Giỏ hàng của bạn</h2>
+
+    <!-- LIST GIỎ HÀNG -->
+    <div id="cartList"></div>
+
+    <!-- TỔNG TIỀN -->
+    <h3 id="totalPrice"></h3>
+</div>
+
+<script src="src/js/cart_badge.js"></script>
+<script src="src/js/cart.js"></script>
+</body>
+</html>
